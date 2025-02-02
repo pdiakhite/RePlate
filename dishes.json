@@ -1,0 +1,71 @@
+[
+    {
+      "region": "East Asian",
+      "cuisine": "Korean",
+      "dish_name": "Kimchi",
+      "ingredients": [
+        "Napa Cabbage 6 pounds",
+        "Kosher Salt 1/2 cup",
+        "Water 2 cups",
+        "Sweet Rice Flour 2 tbsp",
+        "Turbinado Sugar 2 tbsp",
+        "Korean Radish Matchsticks 2 cups",
+        "Carrot Matchsticks 1 cup",
+        "Green Onions Chopped 7-8 stalks",
+        "Garlic Cloves Minced 1/2 cup",
+        "Medium Onion Chopped",
+        "Fish Sauce 1/2 cup",
+        "Fermented Salted Shrimp 1/4 cup",
+        "Red Pepper Flakes 2 cups"
+      ],
+      "prep_time": "48 hours (fermentation)",
+      "description": "Kimchi is a traditional Korean side dish made from fermented vegetables, usually Napa cabbage and radish, seasoned with chili pepper, garlic, ginger, and salted seafood.",
+      "image_url": "https://link_to_image_of_kimchi.jpg"
+    },
+    {
+      "region": "East Asian",
+      "cuisine": "Chinese",
+      "dish_name": "Mapo Tofu",
+      "ingredients": [
+        "Oil 1/2 cup",
+        "Thai Bird Chili Pepper 1-2",
+        "Sichuan Peppercorns 1/2 - 1 1/2 tbsp",
+        "Ginger Finely Minced 3 tbsp",
+        "Garlic Finely Minced 3 tbsp",
+        "Ground Pork 8 oz",
+        "Sugar 1/4 tsp",
+        "Spicy Bean Sauce 1-2 tbsp",
+        "Low Sodium Chicken Broth 2/3 cup",
+        "Silken Tofu 1 lb",
+        "Cornstarch 1 1/2 tsp",
+        "Sesame Oil 1/4 tsp",
+        "Scallion 1 tsp"
+      ],
+      "prep_time": "30 mins",
+      "description": "Mapo Tofu is a famous spicy and numbing dish from Sichuan province in China, featuring tofu set in a spicy sauce, typically with minced meat.",
+      "image_url": "https://link_to_image_of_mapo_tofu.jpg"
+    },
+    {
+      "region": "East Asian",
+      "cuisine": "Japanese",
+      "dish_name": "Ramen",
+      "ingredients": [
+        "Sesame Oil 1 tbsp",
+        "Ginger Grated 3 tsp",
+        "Garlic Grated 4 tsp",
+        "Chicken Broth 4 cups",
+        "Water 4 cups",
+        "Dried Shitake Mushrooms 1 oz",
+        "Instant Ramen Noodles 2 packs",
+        "Scallion/Chives 1/2 cup",
+        "Kale 2 cups",
+        "Carrots 1 cup",
+        "Sriracha to taste",
+        "Panko Crumbs for topping"
+      ],
+      "prep_time": "45 mins",
+      "description": "Ramen is a Japanese noodle soup dish consisting of Chinese-style wheat noodles served in a meat or fish-based broth, flavored with soy sauce or miso, and topped with various ingredients.",
+      "image_url": "https://link_to_image_of_ramen.jpg"
+    }
+  ]
+  

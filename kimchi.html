@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimchi Recipe</title>
+    <style>
+        body {
+            margin: 0;
+            background: #EFBDA2;
+            font-family: Inter, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 34px;
+            font-weight: 900;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 34px;
+            font-weight: 900;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .start-button {
+            background: #6D2F3A;
+            color: #EEE6E8;
+            font-size: 24px;
+            font-weight: 900;
+            border: none;
+            border-radius: 16px;
+            padding: 15px 40px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            margin: 30px 0;
+            cursor: pointer;
+        }
+
+        .ingredients-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .ingredients-box {
+            background: #E35F77;
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 300px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .ingredient {
+            background: #6D2F3A;
+            border-radius: 12px;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            font-weight: 900;
+        }
+
+        .ingredient-name {
+            flex: 1;
+            font-size: 16px;
+        }
+
+        .ingredient button {
+            background: #EFBDA2;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: 900;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        /* Adjust font sizes for specific ingredient types */
+        .large-text .ingredient-name {
+            font-size: 24px;
+        }
+
+        .medium-text .ingredient-name {
+            font-size: 20px;
+        }
+
+        .small-text .ingredient-name {
+            font-size: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .ingredients-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title">Kimchi</div>
+    <div class="section-title">Ingredients</div>
+
+    <div class="ingredients-container">
+        <!-- Ingredients List Left -->
+        <div class="ingredients-box">
+            <div class="ingredient">
+                <span class="ingredient-name">Napa Cabbage 6 pounds</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient large-text">
+                <span class="ingredient-name">Kosher Salt 1/2 cup</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient large-text">
+                <span class="ingredient-name">Water 2 cups</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient medium-text">
+                <span class="ingredient-name">Sweet Rice Flour 2 tbsp</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient medium-text">
+                <span class="ingredient-name">Turbinado Sugar 2 tbsp</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient small-text">
+                <span class="ingredient-name">Korean Radish Matchsticks 2 cups</span>
+                <button>Substitute</button>
+            </div>
+        </div>
+
+        <!-- Ingredients List Right -->
+        <div class="ingredients-box">
+            <div class="ingredient medium-text">
+                <span class="ingredient-name">Carrot Matchsticks 1 cup</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient small-text">
+                <span class="ingredient-name">Green Onions Chopped 7-8 stalks</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient medium-text">
+                <span class="ingredient-name">Garlic Cloves Minced 1/2 cup</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient small-text">
+                <span class="ingredient-name">Medium Onion Chopped</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient large-text">
+                <span class="ingredient-name">Fish Sauce 1/2 cup</span>
+                <button>Substitute</button>
+            </div>
+            <div class="ingredient small-text">
+                <span class="ingredient-name">Fermented Salted Shrimp 1/4 cup</span>
+                <button>Substitute</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Making Button -->
+    <button class="start-button">Start Making</button>
+
+</body>
+</html>
